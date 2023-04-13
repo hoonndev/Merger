@@ -1,0 +1,13 @@
+1. Check nhánh (đang đứng trên nhánh nào)
+	git branch
+2. Tạo nhánh
+	git checkout -b <Ten nhanh>
+3. git pull origin <TenNhanh>:  Kéo tài nguyên từ nhánh ....
+4. git rebase <TenNhanh> : merge code từ nhánh ... (Ngoài ra có thêm git merge)
+
+
+
+
+Luồng làm việc: Trước khi code -> Vào master để cập nhật lại -> quay về
+nhánh mình -> merge code từ nhánh master -> bắt đầu code
+
